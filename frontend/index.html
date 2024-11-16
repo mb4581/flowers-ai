@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pangolin&display=swap" rel="stylesheet">
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <div class="root">
+      <div class="root__preview" style="opacity: 0"></div>
+      <div class="root__content">
+        <div class="root__content__wrapper">
+          <section class="app-header">
+            <header>
+              <h1>Какой это цветок?</h1>
+            </header>
+            <p>
+              Уникальный высокотехнологичный и очень неуверенный в себе
+              магический шар, построенный на базе нейронной сети 
+              с высокой точностью <span>(наверное)</span>
+              определит, фоторгафию какого цветка вы загрузили.
+            </p>
+          </section>
+          <section class="app-uploader">
+            <input type="file" id="uploader" />
+          </section>
+          <section class="app-ball" style="display: none">
+            <a id="result"></a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
