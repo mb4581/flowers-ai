@@ -38,7 +38,7 @@ CMD [ \
     "uvicorn", \
     "--host", "0.0.0.0", \
     "--port", "80", \
-    "--workers", "4", \
+    "--workers", "1", \
     "--log-level", "critical", \
     "app:app" \
 ]

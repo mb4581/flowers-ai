@@ -51,7 +51,7 @@ window.addEventListener("load", () => {
     });
     const output = await response.json();
 
-    const pattern = TEXT_PATTERNS[Math.round(Math.random() * TEXT_PATTERNS.length)];
+    const pattern = TEXT_PATTERNS[Math.floor(Math.random() * TEXT_PATTERNS.length)];
     result.innerText = pattern.replace("%1", output.label);
   })
 });
